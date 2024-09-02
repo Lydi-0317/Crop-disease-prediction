@@ -1,0 +1,9 @@
+POST http://127.0.0.1:5000/predict
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+Content-Disposition: form-data; name="image"; filename="leaf.jpeg"
+Content-Type: image/jpeg
+
+< C:\Users\Lydia\Desktop\Crop Disease\Crop Backend\crop_disease_detection\leaf.jpeg
+--boundary--
